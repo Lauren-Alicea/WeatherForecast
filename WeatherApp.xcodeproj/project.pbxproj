@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,24 @@
 		AF1957962636F9BF00B35EBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1957952636F9BF00B35EBB /* ContentView.swift */; };
 		AF1957982636F9C000B35EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF1957972636F9C000B35EBB /* Assets.xcassets */; };
 		AF19579B2636F9C000B35EBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF19579A2636F9C000B35EBB /* Preview Assets.xcassets */; };
+		AF3664D82640361200CD1BE0 /* CityViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3664D72640361200CD1BE0 /* CityViewViewModel.swift */; };
+		AF9FB9372641940700D089B8 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = AF9FB9362641940700D089B8 /* Lottie */; };
+		AF9FB9492641954F00D089B8 /* dayClearSky.json in Resources */ = {isa = PBXBuildFile; fileRef = AF9FB9392641954E00D089B8 /* dayClearSky.json */; };
+		AF9FB94A2641954F00D089B8 /* dayShowerRains.json in Resources */ = {isa = PBXBuildFile; fileRef = AF9FB93A2641954E00D089B8 /* dayShowerRains.json */; };
+		AF9FB94B2641954F00D089B8 /* dayThunderstorm.json in Resources */ = {isa = PBXBuildFile; fileRef = AF9FB93B2641954E00D089B8 /* dayThunderstorm.json */; };
+		AF9FB94C2641954F00D089B8 /* nightSnow.json in Resources */ = {isa = PBXBuildFile; fileRef = AF9FB93C2641954E00D089B8 /* nightSnow.json */; };
+		AF9FB94D2641954F00D089B8 /* dayMist.json in Resources */ = {isa = PBXBuildFile; fileRef = AF9FB93D2641954E00D089B8 /* dayMist.json */; };
+		AF9FB94E2641954F00D089B8 /* nightClearSky.json in Resources */ = {isa = PBXBuildFile; fileRef = AF9FB93E2641954E00D089B8 /* nightClearSky.json */; };
+		AF9FB94F2641954F00D089B8 /* nightShowerRains.json in Resources */ = {isa = PBXBuildFile; fileRef = AF9FB93F2641954E00D089B8 /* nightShowerRains.json */; };
+		AF9FB9502641954F00D089B8 /* daySnow.json in Resources */ = {isa = PBXBuildFile; fileRef = AF9FB9402641954E00D089B8 /* daySnow.json */; };
+		AF9FB9512641954F00D089B8 /* nightRain.json in Resources */ = {isa = PBXBuildFile; fileRef = AF9FB9412641954E00D089B8 /* nightRain.json */; };
+		AF9FB9522641954F00D089B8 /* nightFewClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = AF9FB9422641954E00D089B8 /* nightFewClouds.json */; };
+		AF9FB9532641954F00D089B8 /* nightScatteredClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = AF9FB9432641954F00D089B8 /* nightScatteredClouds.json */; };
+		AF9FB9542641954F00D089B8 /* nightThunderstorm.json in Resources */ = {isa = PBXBuildFile; fileRef = AF9FB9442641954F00D089B8 /* nightThunderstorm.json */; };
+		AF9FB9552641954F00D089B8 /* nightBrokenClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = AF9FB9452641954F00D089B8 /* nightBrokenClouds.json */; };
+		AF9FB9562641954F00D089B8 /* nightMist.json in Resources */ = {isa = PBXBuildFile; fileRef = AF9FB9462641954F00D089B8 /* nightMist.json */; };
+		AF9FB9572641954F00D089B8 /* dayRain.json in Resources */ = {isa = PBXBuildFile; fileRef = AF9FB9472641954F00D089B8 /* dayRain.json */; };
+		AF9FB9582641954F00D089B8 /* dayScatteredClouds.json in Resources */ = {isa = PBXBuildFile; fileRef = AF9FB9482641954F00D089B8 /* dayScatteredClouds.json */; };
 		AFEA0B9126384B0B00C95270 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA0B9026384B0B00C95270 /* API.swift */; };
 		AFEA0B9426384D4200C95270 /* API+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA0B9326384D4200C95270 /* API+Extension.swift */; };
 		AFEA0B972638553000C95270 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA0B962638553000C95270 /* NetworkManager.swift */; };
@@ -33,6 +51,23 @@
 		AF1957972636F9C000B35EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF19579A2636F9C000B35EBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF19579C2636F9C000B35EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF3664D72640361200CD1BE0 /* CityViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewViewModel.swift; sourceTree = "<group>"; };
+		AF9FB9392641954E00D089B8 /* dayClearSky.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayClearSky.json; sourceTree = "<group>"; };
+		AF9FB93A2641954E00D089B8 /* dayShowerRains.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayShowerRains.json; sourceTree = "<group>"; };
+		AF9FB93B2641954E00D089B8 /* dayThunderstorm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayThunderstorm.json; sourceTree = "<group>"; };
+		AF9FB93C2641954E00D089B8 /* nightSnow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightSnow.json; sourceTree = "<group>"; };
+		AF9FB93D2641954E00D089B8 /* dayMist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayMist.json; sourceTree = "<group>"; };
+		AF9FB93E2641954E00D089B8 /* nightClearSky.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightClearSky.json; sourceTree = "<group>"; };
+		AF9FB93F2641954E00D089B8 /* nightShowerRains.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightShowerRains.json; sourceTree = "<group>"; };
+		AF9FB9402641954E00D089B8 /* daySnow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = daySnow.json; sourceTree = "<group>"; };
+		AF9FB9412641954E00D089B8 /* nightRain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightRain.json; sourceTree = "<group>"; };
+		AF9FB9422641954E00D089B8 /* nightFewClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightFewClouds.json; sourceTree = "<group>"; };
+		AF9FB9432641954F00D089B8 /* nightScatteredClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightScatteredClouds.json; sourceTree = "<group>"; };
+		AF9FB9442641954F00D089B8 /* nightThunderstorm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightThunderstorm.json; sourceTree = "<group>"; };
+		AF9FB9452641954F00D089B8 /* nightBrokenClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightBrokenClouds.json; sourceTree = "<group>"; };
+		AF9FB9462641954F00D089B8 /* nightMist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightMist.json; sourceTree = "<group>"; };
+		AF9FB9472641954F00D089B8 /* dayRain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayRain.json; sourceTree = "<group>"; };
+		AF9FB9482641954F00D089B8 /* dayScatteredClouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dayScatteredClouds.json; sourceTree = "<group>"; };
 		AFEA0B9026384B0B00C95270 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		AFEA0B9326384D4200C95270 /* API+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Extension.swift"; sourceTree = "<group>"; };
 		AFEA0B962638553000C95270 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -43,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF9FB9372641940700D089B8 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +139,7 @@
 		AF1957A42637029700B35EBB /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				AF3664D72640361200CD1BE0 /* CityViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -129,6 +166,22 @@
 		AF1957A7263702AD00B35EBB /* LottieAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				AF9FB9392641954E00D089B8 /* dayClearSky.json */,
+				AF9FB93D2641954E00D089B8 /* dayMist.json */,
+				AF9FB9472641954F00D089B8 /* dayRain.json */,
+				AF9FB9482641954F00D089B8 /* dayScatteredClouds.json */,
+				AF9FB93A2641954E00D089B8 /* dayShowerRains.json */,
+				AF9FB9402641954E00D089B8 /* daySnow.json */,
+				AF9FB93B2641954E00D089B8 /* dayThunderstorm.json */,
+				AF9FB9452641954F00D089B8 /* nightBrokenClouds.json */,
+				AF9FB93E2641954E00D089B8 /* nightClearSky.json */,
+				AF9FB9422641954E00D089B8 /* nightFewClouds.json */,
+				AF9FB9462641954F00D089B8 /* nightMist.json */,
+				AF9FB9412641954E00D089B8 /* nightRain.json */,
+				AF9FB9432641954F00D089B8 /* nightScatteredClouds.json */,
+				AF9FB93F2641954E00D089B8 /* nightShowerRains.json */,
+				AF9FB93C2641954E00D089B8 /* nightSnow.json */,
+				AF9FB9442641954F00D089B8 /* nightThunderstorm.json */,
 			);
 			path = LottieAnimations;
 			sourceTree = "<group>";
@@ -149,6 +202,9 @@
 			dependencies = (
 			);
 			name = WeatherApp;
+			packageProductDependencies = (
+				AF9FB9362641940700D089B8 /* Lottie */,
+			);
 			productName = WeatherApp;
 			productReference = AF1957902636F9BF00B35EBB /* WeatherApp.app */;
 			productType = "com.apple.product-type.application";
@@ -176,6 +232,9 @@
 				Base,
 			);
 			mainGroup = AF1957872636F9BF00B35EBB;
+			packageReferences = (
+				AF9FB9352641940700D089B8 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = AF1957912636F9BF00B35EBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -191,7 +250,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF19579B2636F9C000B35EBB /* Preview Assets.xcassets in Resources */,
+				AF9FB9522641954F00D089B8 /* nightFewClouds.json in Resources */,
+				AF9FB94F2641954F00D089B8 /* nightShowerRains.json in Resources */,
+				AF9FB9542641954F00D089B8 /* nightThunderstorm.json in Resources */,
 				AF1957982636F9C000B35EBB /* Assets.xcassets in Resources */,
+				AF9FB94E2641954F00D089B8 /* nightClearSky.json in Resources */,
+				AF9FB94D2641954F00D089B8 /* dayMist.json in Resources */,
+				AF9FB9502641954F00D089B8 /* daySnow.json in Resources */,
+				AF9FB9582641954F00D089B8 /* dayScatteredClouds.json in Resources */,
+				AF9FB9572641954F00D089B8 /* dayRain.json in Resources */,
+				AF9FB94A2641954F00D089B8 /* dayShowerRains.json in Resources */,
+				AF9FB9532641954F00D089B8 /* nightScatteredClouds.json in Resources */,
+				AF9FB9552641954F00D089B8 /* nightBrokenClouds.json in Resources */,
+				AF9FB94B2641954F00D089B8 /* dayThunderstorm.json in Resources */,
+				AF9FB9492641954F00D089B8 /* dayClearSky.json in Resources */,
+				AF9FB9562641954F00D089B8 /* nightMist.json in Resources */,
+				AF9FB9512641954F00D089B8 /* nightRain.json in Resources */,
+				AF9FB94C2641954F00D089B8 /* nightSnow.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFEA0B9426384D4200C95270 /* API+Extension.swift in Sources */,
+				AF3664D82640361200CD1BE0 /* CityViewViewModel.swift in Sources */,
 				AF04214626399CB300AF9993 /* WeatherDetail.swift in Sources */,
 				AF1957962636F9BF00B35EBB /* ContentView.swift in Sources */,
 				AFEA0B972638553000C95270 /* NetworkManager.swift in Sources */,
@@ -398,6 +474,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF9FB9352641940700D089B8 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF9FB9362641940700D089B8 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF9FB9352641940700D089B8 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AF1957882636F9BF00B35EBB /* Project object */;
 }
