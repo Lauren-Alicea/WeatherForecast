@@ -62,7 +62,7 @@ final class CityViewViewModel: ObservableObject {
     }
     
     var windSpeed: String {
-        return String(format: "$0.1f", weather.current.wind_speed)
+        return String(format: "%0.1f", weather.current.wind_speed)
     }
     
     var humidity: String {

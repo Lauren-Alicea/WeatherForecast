@@ -8,9 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var cityVM = CityViewViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack(alignment: .bottom) {
+            VStack(spacing: 0) {
+                MenuHeaderView(cityVM: cityVM)
+                ScrollView(showsIndicators: false) {
+                   CityView(cityVM: cityVM)
+                }
+            }.padding(.top, 40)
+        }.background(LinearGradient(gradient: Gradient(colors: [Color("Color1"), Color("Color2")]), startPoint: .topLeading, endPoint: .bottomTrailing))
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
@@ -19,7 +29,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-
-// API - Application Programming Interface - it's software that allows two applications to talk to each other.
 
